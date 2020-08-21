@@ -1,4 +1,6 @@
-from application import *
+from main import *
 
 if __name__ == '__main__':
-    pass
+    calculate_salary(10000)
+    employers = get_employees()
+    pprint(employers)
